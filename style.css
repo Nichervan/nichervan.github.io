@@ -47,7 +47,8 @@ body{
 			#nav ul li a{
 				padding: 20px;
 				background: orange;
-				color: white;
+				color: black;
+				
 			}
 			#nav ul li a:hover{
 				background-color: #ffb424;
@@ -61,6 +62,12 @@ body{
 	padding: 20px;
 	clear: both;
 }
+#profile_data{
+	color: red;
+}
+
+
+
 #footer{
 	border-bottom: 1px #ccc solid;
 	margin-bottom: 10px;
