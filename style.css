@@ -48,7 +48,7 @@ body{
 				padding: 20px;
 				background: orange;
 				color: black;
-				
+
 			}
 			#nav ul li a:hover{
 				background-color: #ffb424;
@@ -63,7 +63,8 @@ body{
 	clear: both;
 }
 #profile_data{
-	color: red;
+	color: black;
+	font-size: 20px;
 }
 
 
