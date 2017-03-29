@@ -1,7 +1,7 @@
 /*
 * multi-line comment
 */
-p{ line-height: 1em; }
+p{ line-height: 1em; font-size: 20px;}
 h1, h2, h3, h4{
     color: orange;
 	font-weight: normal;
@@ -19,9 +19,9 @@ a{
 
 /* you can structure your code's white space so that it is as readable for when you come back in the future or for other people to read and edit quickly */
 
-body{
+/*body{
     font-family: arial; font-size: 80%; line-height: 1.2em; width: 100%; margin: 0; background: #eee;
-}
+}*/
 /* you can put your code all in one line like above */
 #page{ margin: 20px; }
 
@@ -66,9 +66,23 @@ body{
 	color: black;
 	font-size: 20px;
 }
+.landing-title{
+	font-size: 40px;
+	color: whithe;
+}
+body{
+	background-size: 100%;
+	background-image: (url"https://www.google.iq/search?q=football+2016+img&espv=2&source=lnms&tbm=isch&sa=X&ved=0ahUKEwih9OjcovvSAhVFaRQKHRmlCZAQ_AUIBigB&biw=1293&bih=658#tbm=isch&q=socer+2016+img&*&imgrc=z3A1Kh4OHv_7qM:")
+}
+.large{
+	font-size: 2.5em;
+}
 
+#home{
+	height: 50%;
+	text-align: center;
 
-
+}
 #footer{
 	border-bottom: 1px #ccc solid;
 	margin-bottom: 10px;
