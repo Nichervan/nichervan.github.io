@@ -70,9 +70,10 @@ a{
 	font-size: 40px;
 	color: whithe;
 }
+
 body{
-	background-size: 100%;
-	background-image: (url"https://www.google.iq/search?q=football+2016+img&espv=2&source=lnms&tbm=isch&sa=X&ved=0ahUKEwih9OjcovvSAhVFaRQKHRmlCZAQ_AUIBigB&biw=1293&bih=658#tbm=isch&q=socer+2016+img&*&imgrc=z3A1Kh4OHv_7qM:")
+	 background-size: cover;
+	background-image:url('../image/kk.jpeg');
 }
 .large{
 	font-size: 2.5em;

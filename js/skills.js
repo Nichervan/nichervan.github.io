@@ -3,18 +3,11 @@ $(document).ready(function () {
 });
 
 function loadSkills() {
-	$.ajax({
-		url: "../skills.json",
-		type: "GET",
-		dataType: "JSON",
-		success: function (data) {
-			console.log(data)
-			result(data);
-		}
-	})
+	$.getJSON("skills.json",result).fail(function(xhr){console.log(xhr.responseText)})
 }
 function result(data) {
 	var html='';
+	console.log(data)
 	html+= '<ul>';
 	$.each(data.skills, function (i,item) {
 		html+= '<li><h1>' + item.name + '</h1>';
@@ -22,3 +15,4 @@ function result(data) {
 	})
 	$('.container').html(html);
 }
+
