@@ -11,11 +11,11 @@ h1, h2, h3, h4{
 h1{ font-size: 1.7em; }
 h2{ font-size: 1.5em; }
 a{
-	color: black;
+	color: white;
 	text-decoration: none;
 }
 	a:hover,
-	a:active{ text-decoration: underline; }
+	a:active{ text-decoration: underline;color: ; }
 
 /* you can structure your code's white space so that it is as readable for when you come back in the future or for other people to read and edit quickly */
 
@@ -68,33 +68,39 @@ a{
 }
 .landing-title{
 	font-size: 40px;
-	color: whithe;
+	color: black;
+
 }
 
 body{
-	 background-size: cover;
+	 background-size: 100%;
 	background-image:url('../image/kk.jpeg');
 }
-.large{
-	font-size: 2.5em;
-}
+
 
 #home{
 	height: 50%;
 	text-align: center;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
 
 }
-#footer{
-	border-bottom: 1px #ccc solid;
-	margin-bottom: 10px;
-}
-	#footer p{
-		text-align: right;
-		text-transform: uppercase;
-		font-size: 80%;
-		color: grey;
-	}
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color:white;
+  text-align: center;
+  color: ;
 
-/* multiple styles seperated by a , */
-#content,
-ul li a{ box-shadow: 0px 1px 1px #999; }
+}
+
+
+
+.large{
+	font-size: 2.5em;
+	height: 40px;
+}

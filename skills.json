@@ -1,10 +1,11 @@
 {
 	"skills":[
 		
-		{"name":"HTML", "description": "Short for HyperText Markup Language, the authoring language used to create documents on the World Wide Web. HTML is similar to SGML, although it is not a strict subset. HTML defines the structure and layout of a Web document by using a variety of tags and attributes."},
+		{"name":"HTML5", "description": "Short for HyperText Markup Language, the authoring language used to create documents on the World Wide Web. HTML is similar to SGML, although it is not a strict subset. HTML defines the structure and layout of a Web document by using a variety of tags and attributes."},
 		{"name":"CSS", "description":  "Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language. ... CSS is designed primarily to enable the separation of document content from document presentation, including aspects such as the layout, colors, and fonts."},
 		{"name":"JavaScript", "description": "JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them."
-		}
+		},
+		{"name":"Jquery", "description": "jQuery is a concise and fast JavaScript library that can be used to simplify event handling, HTML document traversing, Ajax interactions and animation for speedy website development. jQuery simplifies the HTML's client-side scripting, thus simplifying Web 2.0 applications development."},{"name" : "Ajax", "description": "AJAX stands for Asynchronous JavaScript and XML. AJAX is a new technique for creating better, faster, and more interactive web applications with the help of XML, HTML, CSS, and Java Script. Ajax uses XHTML for content, CSS for presentation, along with Document Object Model and JavaScript for dynamic content display." }
 
 		
 	]
